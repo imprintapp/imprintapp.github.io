@@ -3,10 +3,10 @@
   <head>
     <title>Imprint</title>
     <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" />
+    <link rel="stylesheet" href="bootstrap.min.css">
   </head>
   <body>
-    <div class="navbar">
+    <div class="navbar-custom">
     </div>
     <header class="header-section" style="background-image: url('assets/Section_01_bg.png');
     ">
@@ -20,8 +20,8 @@
             <div>Ut enim ad minim.</div>
           </div>
         </div>
-        <div class="header-container">
-          <div class="header-content col-4 col-m-8">
+        <div class="header-container col-xs-12">
+          <div class="header-content col-lg-5 col-md-6 row">
             <p>
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
             </p>
@@ -30,8 +30,8 @@
             </p>
           </div>
         </div>
-        <div class="header-container">
-          <div class="header-content col-l-4 col-m-8 header-scroll-section">
+        <div class="header-container col-xs-12">
+          <div class="header-content header-scroll-section">
             <p>
               Scroll down for more information<span class="down-caret">&nbsp;&#9660;</span>
             </p>
@@ -40,11 +40,11 @@
       </div>
     </header>
     <div class="app-section">
-      <div class="app-header col-l-6 col-m-8 col-s-10 col-xs-10">
+      <div class="app-header col-lg-6 col-md-8 col-xs-10">
         <span>Lorem Ipsum dolor.</span>
       </div>
       <div class="app-section-content">
-        <div class="app-description col-l-5 col-m-6 col-s-7 col-xs-11">
+        <div class="app-description col-md-6 col-sm-7 col-xs-11">
           <p>
             At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
           </p>
@@ -54,29 +54,34 @@
           <p>
             Vestibulum semper et massa ac auctor. Nunc nisl ante, ultrices maximus tempus sed, tristique id nisl. Vivamus scelerisque consectetur purus non pulvinar. Praesent porttitor libero pharetra, eleifend nibh in, viverra urna. Mauris consectetur nulla condimentum dolor dictum sagittis. Suspendisse faucibus vel risus vel auctor. Etiam interdum orci vel elit sollicitudin fermentum.
           </p>
-          <p class="app-scroll-section">
+          <p class="app-scroll-section hidden-xs">
             Scroll down for more information<span class="down-caret">&nbsp;&#9660;</span>
           </p>
         </div>
-        <div class="app-image-content col-l-7 col-m-6 col-s-5 col-xs-12">
+        <div class="app-image-content col-lg-7 col-md-6 col-sm-5 col-xs-12 no-padding">
           <img src="assets/Section_02_image.png">
+        </div>
+        <div class="app-description col-lg-5 col-md-6 col-sm-7 col-xs-11 hidden-lg hidden-md hidden-sm">
+          <p class="app-scroll-section text-right">
+            Scroll down for more information<span class="down-caret">&nbsp;&#9660;</span>
+          </p>
         </div>
       </div>
     </div>
     <div class="product-section">
       <div class="product-header">
-        <big class="col-l-5 col-m-10 col-s-8 col-xs-8">Our Products</big>
-        <span class="col-l-7 col-m-10 col-s-10 col-xs-10">
+        <big class="col-lg-5 col-md-10 col-xs-8">Our Products</big>
+        <span class="col-lg-7 col-md-10 col-xs-12">
           Nam et feugiat, sed aliquet erat. Lorem ipsum dolot sit amet, consectetur adipiscing elit. Ut interdum augue eget euismod auctor. Morbi nec augue fringilla, sodales ligula ut, fiibus dolor. Etiam sed eleifend neque, et volutpat eros. Fusce nec porttitor odio. Nulla imperdiet dignissim metus, non tempur arcu cursus eget. Sed elementum magna in eleifend consectetur. Etiam sit amet non nibh vestibulum elementum pulvinar aliquet mauris. Duis vitae ultrices nisi.
         </span>
       </div>
       <div class="product-section-content">
-        <div class="product-content col-4 col-m-12">
+        <div class="product-content col-lg-4">
           <div class="product-image">
             <img src="assets/Section_03_Strips.png">
           </div>
           <div class="product-name">
-            <b>Strips</b>
+            <span>Strips</span>
           </div>
           <div class="product-description">
             <p>Retro photobooth style strips</p>
@@ -87,12 +92,12 @@
             </button>
           </div>
         </div>
-        <div class="product-content col-4 col-m-12">
+        <div class="product-content col-lg-4">
           <div class="product-image">
             <img src="assets/Section_03_Squares.png">
           </div>
           <div class="product-name">
-            <b>Squares</b>
+            <span>Squares</span>
           </div>
           <div class="product-description">
             <p>Classic Instagram Layout</p>
@@ -103,12 +108,12 @@
             </button>
           </div>
         </div>
-        <div class="product-content col-4 col-m-12">
+        <div class="product-content col-lg-4">
           <div class="product-image">
             <img src="assets/Section_03_Micros.png">
           </div>
           <div class="product-name">
-            <b>Micros</b>
+            <span>Micros</span>
           </div>
           <div class="product-description">
             <p>Our signature product</p>
@@ -145,7 +150,7 @@
   </body>
   <footer>
     <div class="footer">
-      <div class="footer-about col-l-4 col-m-4 col-xs-12">
+      <div class="footer-about col-md-4 col-xs-12">
         <span class="footer-header">About IMPRINT &trade;</span>
         <p class="about-content">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce velit nibh, commodo non semper sit amet, laoreet a massa. Aenean velit purus, volutpat ac ligula ut, consequat dignissim leo.
@@ -153,7 +158,7 @@
           Sed id portittor augue. Proin dignissim aliquet pellentesque. Fusce vitae mattis leo.
         </p>
       </div>
-      <div class="footer-links col-l-4 col-m-4 col-xs-12">
+      <div class="footer-links col-md-4 col-xs-12">
         <div class="link-header">
           <span class="footer-header">Lorem Ipsum Dolor</span>
         </div>
@@ -179,7 +184,7 @@
         </div>
 
       </div>
-      <div class="footer-social col-l-4 col-m-4 col-xs-12">
+      <div class="footer-social col-md-4 col-xs-12">
         <div class="social-header">
           <span class="footer-header">Add us on</span>
         </div>
@@ -196,7 +201,6 @@
           <span>
             <a href="https://plus.google.com"><img src="assets/google.png"></a>
           </span>
-          <!-- <img src="assets/Footer_Social.png"> -->
         </div>
       </div>
     </div>

@@ -31,8 +31,8 @@ html, body, footer {
 .pull-right { float: right; }
 .no-padding { padding: 0px !important; }
 .header-section {
-  height: 900px;
-  background: no-repeat center center;
+  height: 750px;
+  background: no-repeat top center;
   background-attachment: scroll;
   background-size: cover;
   -o-background-size: cover;
@@ -53,10 +53,10 @@ html, body, footer {
   padding: 0px 15px;
   margin-bottom: 20px;
 }
-.site-logo { height: 330px; }
+.site-logo { height: 270px; }
 .site-header {
-  padding-top: 25px;
   font-size: 75px;
+  line-height: 1.2;
   font-family: 'SourceSansPro-Bold';
   color: rgba(255, 255, 255, 0.93);
 }

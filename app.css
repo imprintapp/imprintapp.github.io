@@ -1,14 +1,14 @@
 @font-face {
   font-family: SourceSansPro-Bold;
-  src: url('fonts/SourceSans/SourceSansPro-Bold.otf');
+  src: url('https://cdn.rawgit.com/imprintapp/imprintapp.github.io/master/fonts/SourceSans/SourceSansPro-Bold.otf');
 }
 @font-face {
   font-family: SourceSansPro-Regular;
-  src: url('fonts/SourceSans/SourceSansPro-Regular.otf');
+  src: url('https://cdn.rawgit.com/imprintapp/imprintapp.github.io/master/fonts/SourceSans/SourceSansPro-Regular.otf');
 }
 @font-face {
   font-family: SourceSansPro-Semibold;
-  src: url('fonts/SourceSans/SourceSansPro-Semibold.otf');
+  src: url('https://cdn.rawgit.com/imprintapp/imprintapp.github.io/master/fonts/SourceSans/SourceSansPro-Semibold.otf');
 }
 html, body, footer {
   margin:0;
